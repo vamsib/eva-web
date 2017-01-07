@@ -1,0 +1,9 @@
+{{#if supported }}
+    <div class="mic {{if switchedOn 'switched-on'}}">
+      <a href="#"><i class="fa fa-microphone"></i></a>
+      <p class="intro">Hi! I am Gaia</p>
+      <p class="intro-purpose">I can remind you things. Just say "Gaia, remind me to ...".</p>
+    </div>
+{{else}}
+  <p class="unsupported">Your browser doesn't support speech API</p>
+{{/if}}
