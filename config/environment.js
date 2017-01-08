@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'voice-todo',
+    modulePrefix: 'eva-web',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
