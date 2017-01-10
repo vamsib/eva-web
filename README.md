@@ -1,7 +1,8 @@
 # Eva-web
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Eva is an attempt to build an open, extensible voice assistant app. Most voice-based assistants are proprietary and expensive. There is no doubt that big companies have spent lot of time and money building these assistants and it is very visible from the quality of speech recongition in these tools that a lot has gone into building them. However, there is a need for a open app in this space given the privacy concerns.
+
+Eva is also an attempt to see how far we could go using web standards in building speech-driven web apps.
 
 ## Prerequisites
 
