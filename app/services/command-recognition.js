@@ -7,13 +7,12 @@ export default Ember.Service.extend({
     this._super(...arguments);
     this.get('messageQueue').subscribe('spr_results', (text) => {
       //extract commands and push to commands queue
-      var command = {},
-          parameters = [];
+      var command = {};
 
       if (text.indexOf('+') >= 0) {
         command = {
           'name': 'add',
-          'parameters': text.split('+').map((s) => { return Number.parseInt(s, 10) }),
+          'parameters': text.split('+').map((s) => { return Number.parseInt(s, 10); }),
           'originalText': text
         };
         this.get('messageQueue').push('commands', command);
